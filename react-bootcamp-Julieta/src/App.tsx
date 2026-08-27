@@ -6,6 +6,7 @@ import TrafficLight from './Class4/TrafficLight'
 import StockWarning from './Class4/Stock'
 import NameList from './Class4/Nombres'
 import Tareas from './TodoList'
+import AddName from './Class5/Names_2'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <StockWarning/>
     <NameList/>
     <Tareas/>
+    <AddName/>
     </>
   )
 }

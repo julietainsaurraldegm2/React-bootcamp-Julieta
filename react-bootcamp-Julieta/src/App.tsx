@@ -5,6 +5,7 @@ import Post from './Class3/Post'
 import TrafficLight from './Class4/TrafficLight'
 import StockWarning from './Class4/Stock'
 import NameList from './Class4/Nombres'
+import AddName from './Class5/Names_2'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <TrafficLight/>
     <StockWarning/>
     <NameList/>
+    <AddName/>
     </>
   )
 }

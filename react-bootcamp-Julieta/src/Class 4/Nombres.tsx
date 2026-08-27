@@ -1,11 +1,11 @@
-interface Names {
+interface Name {
     id: number;
     name: string;
 }
 
 function NameList() {
 
-    const names: Names[] = [
+    const names: Name[] = [
         { id: 1, name: "Juan" },
         { id: 2, name: "Pepe" },
         { id: 3, name: "Mario" }

@@ -7,8 +7,10 @@ import React, { useState } from "react";
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
 
-        if (!email) return;
+        const trimmed = email.trim();
+        if (!trimmed) return;
 
+        setEmail(trimmed);
         setSubmitted(true);
     }
 

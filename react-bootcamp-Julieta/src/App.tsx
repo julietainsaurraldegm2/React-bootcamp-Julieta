@@ -7,6 +7,7 @@ import StockWarning from './Class4/Stock'
 import NameList from './Class4/Nombres'
 import Tareas from './TodoList'
 import AddName from './Class5/Names_2'
+import FormularioSuscripcion from './Class6/FormularioSuscripcion'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
     <NameList/>
     <Tareas/>
     <AddName/>
+    <FormularioSuscripcion/>
     </>
   )
 }

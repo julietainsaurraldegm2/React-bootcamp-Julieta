@@ -8,6 +8,7 @@ import NameList from './Class4/Nombres'
 import Tareas from './TodoList'
 import AddName from './Class5/Names_2'
 import FormularioSuscripcion from './Class6/FormularioSuscripcion'
+import CuentaRegresiva from './CuentaRegresiva'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
     <Tareas/>
     <AddName/>
     <FormularioSuscripcion/>
+    <CuentaRegresiva segundosIniciales={200} />    
     </>
   )
 }

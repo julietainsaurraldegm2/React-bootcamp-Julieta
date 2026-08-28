@@ -3,7 +3,9 @@ import { useEffect, useState } from "react"
 interface CuentaRegresivaprop {
     segundosIniciales: number
 }
-
+function reiniciarCuenta(){
+    localStorage.removeItem("segundos")
+}
 function CuentaRegresiva({ segundosIniciales }: CuentaRegresivaprop) {
 
     const [segundos, setSegundos] = useState(() => {
@@ -33,6 +35,7 @@ function CuentaRegresiva({ segundosIniciales }: CuentaRegresivaprop) {
     return (
         <div>
             <p>{segundos}</p>
+            <button onClick={()=> reiniciarCuenta()} ></button>
         </div>
     )
 }

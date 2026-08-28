@@ -23,7 +23,7 @@ function App() {
     <Tareas/>
     <AddName/>
     <FormularioSuscripcion/>
-    <CuentaRegresiva segundosIniciales={20} />    
+    <CuentaRegresiva segundosIniciales={15} />    
     </>
   )
 }

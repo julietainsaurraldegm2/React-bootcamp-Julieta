@@ -182,3 +182,12 @@
     border-right-color: var(--border);
   }
 }
+.Claro{
+  background-color: antiquewhite;
+  color:black
+}
+
+.Oscuro{
+  background-color: #1a191923;
+  color:aliceblue;
+}

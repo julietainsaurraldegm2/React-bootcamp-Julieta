@@ -1,6 +1,5 @@
 import Saludo from "./Saludo.tsx"
 import Perfil from "./Perfil.tsx";
-import "./class2.css"
 
 function Contenedor() {
     

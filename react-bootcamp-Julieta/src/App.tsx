@@ -9,7 +9,8 @@ import Tareas from './TodoList'
 import AddName from './Class5/Names_2'
 import FormularioSuscripcion from './Class6/FormularioSuscripcion'
 import Form from './Class9/Form'
-
+import { ContadorProvider } from './Class8/ContadorContext'
+import Context from './Class8/Context'
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
     <AddName/>
     <FormularioSuscripcion/>
      <Form/>
+    <ContadorProvider>
+      <Context/>
+    </ContadorProvider>
     </>
   )
 }

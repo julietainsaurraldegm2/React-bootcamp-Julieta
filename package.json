@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@uidotdev/usehooks": "^2.4.1",
     "zustand": "^5.0.15"
   }
 }

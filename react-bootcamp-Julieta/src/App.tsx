@@ -11,6 +11,7 @@ import FormularioSuscripcion from './Class6/FormularioSuscripcion'
 import Form from './Class9/Form'
 import { ContadorProvider } from './Class8/ContadorContext'
 import Context from './Class8/Context'
+import TarjetaEjemplo from './Class11/TarjetaInfo'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
     <ContadorProvider>
       <Context/>
     </ContadorProvider>
+    <TarjetaEjemplo/>
     </>
   )
 }

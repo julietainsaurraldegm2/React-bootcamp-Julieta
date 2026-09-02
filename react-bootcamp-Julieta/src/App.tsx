@@ -7,6 +7,13 @@ import Lesson3Content from './Class3/Lesson_01/Content'
 import Contenedor4 from './Class4/Content'
 import Names5 from './Class5/Names_2'
 import Form6 from './Class6/FormularioSuscripcion'
+import TrafficLight from './Class4/TrafficLight'
+import StockWarning from './Class4/Stock'
+import NameList from './Class4/Nombres'
+import Tareas from './TodoList'
+import AddName from './Class5/Names_2'
+import FormularioSuscripcion from './Class6/FormularioSuscripcion'
+import Form from './Class9/Form'
 import { ContadorProvider } from './Class8/ContadorContext'
 import Context8 from './Class8/Context'
 
@@ -46,6 +53,19 @@ function App() {
         </Routes>
       </BrowserRouter>
     </StrictMode>
+    <Content/>
+    <Counter/>
+    <Post/>
+    <TrafficLight/>
+    <StockWarning/>
+    <NameList/>
+    <Tareas/>
+    <AddName/>
+    <FormularioSuscripcion/>
+     <Form/>
+    <ContadorProvider>
+      <Context/>
+    </ContadorProvider>
     </>
   )
 }

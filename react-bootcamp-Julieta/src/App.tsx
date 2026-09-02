@@ -16,6 +16,7 @@ import FormularioSuscripcion from './Class6/FormularioSuscripcion'
 import Form from './Class9/Form'
 import { ContadorProvider } from './Class8/ContadorContext'
 import Context8 from './Class8/Context'
+import Counter from './Class4/Lesson_01/Contador'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Link to="/class5">Class 5</Link>
           <Link to="/class6">Class 6</Link>
           <Link to="/class8">Class 8</Link>
+          <Link to="/class9">Class 9</Link>
         </nav>
         <Routes>
           <Route path="/class2" element={<Contenedor2 />} />
@@ -49,23 +51,11 @@ function App() {
               </ContadorProvider>
             }
           />
+          <Route path ="/class9" element ={<Form/>}/>
           <Route path="/" element={<div>Seleccioná una clase.</div>} />
         </Routes>
       </BrowserRouter>
     </StrictMode>
-    <Content/>
-    <Counter/>
-    <Post/>
-    <TrafficLight/>
-    <StockWarning/>
-    <NameList/>
-    <Tareas/>
-    <AddName/>
-    <FormularioSuscripcion/>
-     <Form/>
-    <ContadorProvider>
-      <Context/>
-    </ContadorProvider>
     </>
   )
 }
